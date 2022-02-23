@@ -124,6 +124,12 @@ textarea {
   }
 }
 
+@media (min-width: 425px) {
+  .nav {
+    font-size: 10px;
+  }
+}
+
 .section-padding {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -249,7 +255,21 @@ textarea {
     max-width: 100%;
     width: 100%;
     text-align: center;
-    padding-top: 25px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .navbar-nav {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .navbar-brand {
+    max-width: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 40px;
     margin-bottom: 10px;
   }
   .navbar-brand img {
@@ -259,6 +279,23 @@ textarea {
     margin: 0 auto;
   }
 }
+
+@media (max-width: 425px) {
+ .navbar-nav {
+   margin-bottom: 150px;
+ }
+ .navbar-brand img {
+  visibility: hidden;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar-nav ul a {
+   font-size: 15px;
+  }
+}
+
+
 
 /* Hero */
 .hero {
@@ -509,3 +546,4 @@ footer {
   background-color: #623ab1;
   border-radius: 4px;
 }
+
