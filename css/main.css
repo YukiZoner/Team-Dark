@@ -1,6 +1,7 @@
 *,h1,h2,h3,h4,h5,h6,p,ul,a {
   margin: 0;
   padding: 0;
+  cursor: url(cur.png), auto;
 }
 
 *,
@@ -295,6 +296,11 @@ textarea {
   }
 }
 
+@media only screen and (max-width: 425px) {
+  .hero {
+    max-height: 100%;
+  }
+}
 
 
 /* Hero */
