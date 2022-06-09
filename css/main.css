@@ -281,7 +281,7 @@ textarea {
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 525px) {
  .navbar-nav {
    margin-bottom: 150px;
  }
@@ -348,6 +348,23 @@ textarea {
   color: #fff;
 }
 
+@media (min-width: 100px) {
+  .hero.hero-sm {
+    min-height: 4vh;
+  }
+}
+@media (min-width: 500px) {
+  .hero.hero-sm {
+    min-height: 45vh;
+  }
+}
+
+@media (min-width: 900px) {
+  .hero.hero-sm {
+    min-height: 75vh;
+  }
+}
+
 /* Services Section */
 .services {
   display: flex;
@@ -410,6 +427,7 @@ textarea {
 .split-section__image {
   order: -1;
   margin-bottom: 40px;
+  display: flex;
 }
 
 .split-section__image,
