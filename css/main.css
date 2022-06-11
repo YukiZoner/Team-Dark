@@ -533,11 +533,6 @@ textarea.form-control {
 }
 
 /* Form_input-control */
-
-.form-control._error {
-  box-shadow: 0 0 15px red;
-}
-
 .form-control:focus {
   box-shadow: 0 0 25px rgb(97, 36, 151);
 
@@ -545,7 +540,7 @@ textarea.form-control {
 
 /* form__body=layout */
 
-.form-layout::after {
+/* .form-layout::after {
   content: "";
   position: absolute;
   top: 0;
@@ -561,7 +556,7 @@ textarea.form-control {
 .form-layout._sending::after {
   opacity: 1;
   visibility: visible;
-}
+} */
 
 /* Footer */
 .footer-row {
