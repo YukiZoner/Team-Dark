@@ -9,11 +9,10 @@
 
             let error = formValidate(form);
 
-            let formData = new FormData(form);
-            formData.append('image', formImage.files[0]);
 
             if (error === 0) {
-                /*
+                form.classList.add('_sending');
+                
                 let response = await fetch('sendmail.php', {
                     method: 'POST',
                     body: formData
@@ -28,7 +27,7 @@
                     alert("Помилка");
                     form.classList.remove('_sending');
                 }
-                */
+                
             } else {
                 alert('Заповніть поля');
             }
@@ -56,6 +55,7 @@
                     }
                 }
             }
+            return error;
         }
         function formAddError(input) {
             input.parentElement.classList.add('_error');
