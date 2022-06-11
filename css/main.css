@@ -500,6 +500,7 @@ textarea {
   border-radius: 6px;
   border: 1px solid #ececec;
   -webkit-appearance: none;
+  transition: all 0.5s ease 0s;
 }
 
 .form-control:not(textarea) {
@@ -529,6 +530,37 @@ textarea.form-control {
     max-width: 50%;
     width: 100%;
   }
+}
+
+/* Form_input-control */
+
+.form-control._error {
+  box-shadow: 0 0 15px red;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 25px rgb(97, 36, 151);
+
+}
+
+/* form__body=layout */
+
+.form-layout::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 123%;
+  background: rgba(51, 51, 51, 0.412) url(../images/Gif/form2.gif) center / 50px no-repeat;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease 0s;
+}
+
+.form-layout._sending::after {
+  opacity: 1;
+  visibility: visible;
 }
 
 /* Footer */
