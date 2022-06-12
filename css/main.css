@@ -93,7 +93,7 @@ img {
 label {
   display: inline-block;
   font-size: 12px;
-  color: #666666;
+  color: #b70fe1;
   margin-bottom: 3px;
 }
 
@@ -540,7 +540,7 @@ textarea.form-control {
 
 /* form__body=layout */
 
-/* .form-layout::after {
+.form-layout::after {
   content: "";
   position: absolute;
   top: 0;
@@ -556,7 +556,7 @@ textarea.form-control {
 .form-layout._sending::after {
   opacity: 1;
   visibility: visible;
-} */
+}
 
 /* Footer */
 .footer-row {
