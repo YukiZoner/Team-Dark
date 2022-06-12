@@ -58,6 +58,7 @@ h1 {
 
 h2 {
   font-size: 28px;
+  color: lawngreen;
 }
 
 h3 {
@@ -66,6 +67,7 @@ h3 {
 
 h4 {
   font-size: 18px;
+  color: blueviolet;
 }
 
 @media (min-width: 992px) {
@@ -93,7 +95,7 @@ img {
 label {
   display: inline-block;
   font-size: 12px;
-  color: #b70fe1;
+  color: #e479ff;
   margin-bottom: 3px;
 }
 
@@ -115,7 +117,7 @@ textarea {
 
 .lead {
   font-size: 16px;
-  color: #808080;
+  color: #14b8bb8d;
   font-weight: 300;
 }
 
