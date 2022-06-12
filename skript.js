@@ -1,6 +1,8 @@
-<script type="text/javascript">var submitted=false;</script>
-<iframe name="hidden_iframe" id="hidden_iframe"
-style="display:none;" onload="if(submitted)
-{window.location='https://vk.com/landingpagefree';}"></iframe>
-<form action="111111111" method="post"
-target="hidden_iframe" onsubmit="submitted=true;">
+document.getElementById('check').onclick = function() {
+    let login = document.getElementById('login').value;
+    let password = document.getElementById('password').value;
+
+    if (login == 'Admin' && password == '12345')
+        window.location="home.html";
+    else alert('Неправильний логіч чи пароль');
+}
